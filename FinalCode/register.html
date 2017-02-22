@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>My LOL Picker</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script type='text/javascript'>
+	function init()
+	{
+		$(document).ready(function() {
+		$('select').material_select();
+		});
+	}
+  </script>
+</head>
+<body onload='init()'>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a href="#" class="brand-logo center">My LOL Picker</a><a id="logo-container" href="index.php" class="brand-logo"><i class="large mdi-action-home"></i></a>
+      <ul class="right hide-on-med-and-down"> 
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Log In</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <div class="row center">
+        <h5 class="header col s12 light">Register</h5>
+      </div>
+	  <br />
+       <div class="row center">
+		
+				<form class="col s4 offset-s4" method="post" action="register.php">
+				  <div class="row">
+					<div class="input-field col s12">
+					  <input id="username" type="text" name="username" class="validate">
+					  <label for="username">Username</label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="input-field col s12">
+					  <input id="password" type="password" class="validate" name="password">
+					  <label for="password">Password</label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="input-field col s12">
+					  <input id="sname" type="text" name="sname" class="validate">
+					  <label for="sname">Summoner Name</label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="input-field col s12">
+					  <input id="server" type="text" name="server" class="validate">
+					  <label for="server">Server</label>
+					</div>
+				  </div>
+				  <div class="row">
+					<div class="input-field col s12">
+					  <input id="email" type="text" name="email" class="validate">
+					  <label for="email">E-mail</label>
+					</div>
+				  </div>
+				  <br /><br />
+				   <button class="btn waves-effect waves-light" type="submit">Submit<i class="mdi-content-send right"></i></button>
+				</form>
+		
+      </div>
+     
+	
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+    </div>
+    <br><br>
+
+    <div class="section">
+
+    </div>
+  </div> 
+  <br /><br /><br /><br /><br />
+  <footer class="page-footer cyan">
+    
+    <div class="footer-copyright">
+      <div class="container">
+      Made by Mark Tomlin
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+	<link rel="stylesheet" type="text/css" href="http://assets.cookieconsent.silktide.com/current/style.min.css"/>
+	<script type="text/javascript" src="http://assets.cookieconsent.silktide.com/current/plugin.min.js"></script>
+	<script type="text/javascript">
+	// <![CDATA[
+	cc.initialise({
+		cookies: {},
+		settings: {
+			consenttype: "implicit"
+		}
+	});
+	// ]]>
+	</script>
+	<!-- End Cookie Consent plugin -->
+
+
+  </body>
+</html>
