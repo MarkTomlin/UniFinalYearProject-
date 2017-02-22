@@ -1,2 +1,2 @@
 # UniFinalYearProject-
-My chosen software project for my final year at university. This project's grading contributes to 60% of my final BSc degree. 
+My chosen software project for my final year at university. This project's grading contributes to 60% of my final BSc degree. This project spanned a total of 8 months.
